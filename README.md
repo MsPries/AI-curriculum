@@ -44,7 +44,7 @@ I used [MarI/O](https://www.youtube.com/watch?v=qv6UVOQ0F44) as a hook for appro
 
 For building their XOR networks, I gave them code for a working example as well as structure for writing their own - you can find this code [here](https://github.com/emilypries/xor-neural-network). This gave them the confidence to dive into the blank part of code and gave them an easy resource for debugging on their own. This seemed to be the right amount of support to allow them to focus on the concepts while developing their Python skills.
 
-Additionally, this tutorial used numpy, so the students installed pip and started getting comfortable installing packages on their own computers.
+Additionally, this tutorial used numpy, so the students installed pip and started getting comfortable installing packages on their own computers. [Here](https://github.com/MsPries/AI-curriculum/blob/master/appedix/pip.md) are the instructions I gave them.
 
 
 
