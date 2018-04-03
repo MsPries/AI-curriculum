@@ -15,10 +15,10 @@ Use this README as an overview for the various projects offered. Where appropria
 - Handwriting Recognition (MNIST)
 - [OpenAI Gym Video Game Agents](#openai-gym-video-game-agents)
 - Style Transfer
-- Final Projects
+- [Final Projects](#final-projects)
 - [Appendix A - Escape the Room](#appendix-a---escape-the-room)
 - [Appendix B - Neural Network Email](#appendix-b---neural-network-email)
-- Appendix C: Brainstorm Materials
+- [Appendix C - Brainstorm Materials](#appendix-c---brainstorm-materials)
 - [Appendix D - GitHub Set Up Instructions](#appendix-d---github-set-up-instructions)
 
 ### Getting Started with Python
@@ -62,6 +62,11 @@ For the student's semester exam project, they were challenged to explore AI prog
 
 To introduce the project, we explore a solver for the ["cartpole" environment](https://gym.openai.com/envs/CartPole-v0/). This introduced the idea of interacting with a simulated environment and gave them scaffolding code to build off of. I gave them a [random player](https://github.com/MsPries/AI-curriculum/blob/master/openai-gym/cartpole_random.py) that tries random parameters and keeps track of the most successful set as well a [random player that scales linearly](https://github.com/MsPries/AI-curriculum/blob/master/openai-gym/cartpole_linear.py). In class, we looked at graphs and had students visualize the success score vs parameter choices in 2, 3, and 4 dimensions. This was a helpful way to see the role of gradient descent interacting with a cost function. From there, they delved into their projects for the next ~3 weeks.
 
+### Final Projects
+For their final projects, students were (as of 4/3/18, are!) welcome to work on whatever they want! The prompt and grading rubric for this project are available [here](https://docs.google.com/document/d/1Or5s8aK-lo2-guo5rOn_TZbUe6CFsQ0cURYe6-kG1dc/edit?usp=sharing).
+
+They have known this project is open throughout the course, but to jumpstart some creative thinking I ran [this brainstorm exercise]https://github.com/MsPries/AI-curriculum/blob/master/appendix/brainstorm.md) in class to get new dialogue going. Students have since had one homework and one class period to talk to their peers and me and submit a short proposal. I use Google Forms for collecting info like this. I emailed them feedback about their proposal, including talking through narrowing or broadening the scope of a project, suggestions for where to find data sets, celebrating unique approaches, or pushing students to think through a potential challenge.
+
 ### Appendix A - Escape the Room
 This "escape the room" style activity checked for understanding for concepts of the first few explorations. The overhead to create it was more than standard but it is easily modified to be reusable and the excitement around collaborative problem-solving was incredible.
 
@@ -72,6 +77,8 @@ I used an example email with a proposed design for a college acceptance text cla
 
 You can find the example email [here](https://github.com/MsPries/AI-curriculum/blob/master/appendix/text_classifier_email.md).
 
+### Appendix C - Brainstorm Materials
+We did a mad-libs style brainstorming exercise to start thinking creatively about final projects. You can find the exercise [here](https://github.com/MsPries/AI-curriculum/blob/master/appendix/brainstorm.md).
 
 ### Appendix D - GitHub Set Up Instructions
-I gave the students [these instructions](https://docs.google.com/document/d/1gzKgVDmiwaBqljEHdeqNw-NFH-A_cEJwEU-7L-fDJ_A/edit?usp=sharing) to help them get set up on GitHub
+I gave the students [these instructions](https://docs.google.com/document/d/1gzKgVDmiwaBqljEHdeqNw-NFH-A_cEJwEU-7L-fDJ_A/edit?usp=sharing) to help them get set up on GitHub.
