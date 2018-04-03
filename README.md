@@ -17,7 +17,7 @@ Use this README as an overview for the various projects offered. Where appropria
 - Style Transfer
 - Final Projects
 - [Appendix A - Escape the Room](#appendix-a---escape-the-room)
-- Appendix B: Check for Understanding: Neural Network Fundamentals
+- [Appendix B - Neural Network Email](#appendix-b---neural-network-email)
 - Appendix C: Brainstorm Materials
 
 ### Getting Started with Python
@@ -51,4 +51,9 @@ Additionally, this tutorial used numpy, so the students installed pip and starte
 ### Appendix A - Escape the Room
 This "escape the room" style activity checked for understanding for concepts of the first few explorations. The overhead to create it was more than standard but it is easily modified to be reusable and the excitement around collaborative problem-solving was incredible.
 
-You can find the live version of the activity [here](https://mspries.github.io/escape/escape.html) and a complete write up [here](https://github.com/MsPries/AI-curriculum/blob/master/appendix/escape_the_room.md)
+You can find the live version of the activity [here](https://mspries.github.io/escape/escape.html) and a complete write up [here](https://github.com/MsPries/AI-curriculum/blob/master/appendix/escape_the_room.md).
+
+### Appendix B - Neural Network Email
+I used an example email with a proposed design for a college acceptance text classifier using neural networks to check for understanding on neural network fundamentals. We also discussed the ethics behind building such a program. It worked well as a classroom discussion, however if I were concerned about getting a more granular understanding of individual student mastery, I would have assigned annotating this email as a homework assignment.
+
+You can find the example email [here](https://github.com/MsPries/AI-curriculum/blob/master/appendix/text_classifier_email.md).
