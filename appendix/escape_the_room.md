@@ -24,11 +24,11 @@ More information on each of the puzzles as well as facilitation notes follows. R
 ### The Puzzles
 1. [Dorothy - Pathfinding](#dorothy---pathfinding)
 2. [Lion - Handwriting Recognition](#lion---handwriting-recognition)
-3. Scarecrow - XOR Neural Network
+3. [Scarecrow - XOR Neural Network](#scarecrow---xor-neural-network)
 4. [Tin Man - AI Ethics](#tin-man---ai-ethics)
-5. Pop Quiz
+5. [Pop Quiz](#pop-quiz)
 
-### 1. Dorothy - Pathfinding
+### Dorothy - Pathfinding
 
 This puzzle built off their work with [Q-Learning for pathfinding](https://github.com/emilypries/q_learning_demo) by directing them to [this repo](https://github.com/MsPries/YellowBrickRoad) to "follow the yellow brick road."
 
@@ -42,7 +42,7 @@ I also like to encourage students to think "out of the box," so they asked if th
 
 When solved, the program printed a clue to the command line.
 
-### 2. Lion - Handwriting Recognition
+### Lion - Handwriting Recognition
 
 This puzzle built off their prior work with handwriting recognition and challenged students to convert an image of handwritten digits into digital characters.
 
@@ -56,10 +56,24 @@ This puzzle was intended to prompt questions about the scale at which switching 
 
 Once they got a string of digit characters, the students entered that string on the webpage and received a clue.
 
-### 4. Tin Man - AI Ethics
+### Scarecrow - XOR Neural Network
+This puzzle replicated their [XOR neural network project](https://github.com/emilypries/xor-neural-network), but the students needed to realize that's what was happening.
+
+They were presented with two inputs (each either corn or strawberries) and an expected output. They were also given the description of the structure of a neural network to build that could give the correct output given two inputs. After creating the given structure and training a network to calculate XOR, they entered their weights and the page calculated what their "brain" would output for a random series of inputs.
+
+This activity was more challenging than I anticipated; it took to realize the strawberries and corn were analogous to 0s and 1s and some students jumped into writing new code right away rather than tweaking their existing code. This challenge made it very clear which students were comfortable navigating their XOR neural network code and understanding the impact of modifications and which were not.
+
+This was a fun activity to build as it effectively creates a client-side tool in Javascript to calculate the outputs of a given neural network based on the synaptic weights. 
+
+### Tin Man - AI Ethics
 
 This "puzzle" was a little different. Students read [an article](http://www.slate.com/articles/technology/bitwise/2014/07/roko_s_basilisk_the_most_terrifying_thought_experiment_of_all_time.html) about Roko's Basilisk, a thought experiment around the development of malevolent superintelligence. They then had to commit to either working towards creating this superintelligent being or refusing to do so, at the risk of eternal punishment should our reality prove to be a simulation itself. Either choice was acceptable, but students were required to defend their position.
 
 This puzzle was frustrating for a few students who expected a "right" answer. It also messed with the minds of a few students (in a good way). A few students voted and gave a logical explanation, but made it clear that they thought the premise was ridiculous.
 
 In my smaller section, I had the students read the article ahead of time and come and discuss as a class. In my larger section, I gave no extra context. When students broke into small groups to work on different puzzles (without reading the problem statements ahead of time, as the students self-reflected!), the group that worked on this "puzzle" played the role of explaining the thought experiment. They took a while to read and I think they may have felt as though the missed out on some of the coding-based problem solving.
+
+### Pop Quiz
+As stated above, once the students used the clues from the online puzzle to find and open a physical box, they found [this quiz](https://docs.google.com/document/d/1gfLrcmmiZNhBIC2OsTLbmfscPIMvXZOCK75VH-SqhTU/edit?usp=sharing) and a [Microbit](http://microbit.org/) microcontroller. They needed to plug in the Microbit and enter the correct series of A's and B's to get the keyword to solve the full activity.
+
+I don't typically give written assessments in this class, so I was curious how the students would do. I tried to write questions that appeal to the various modalities of learning and that no one student could answer all of, and it was fun to see the whole class involved in answering them. In one section, the timing worked out just right that they were pressed but had enough time to solve it -- it was perfect!
