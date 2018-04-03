@@ -11,7 +11,7 @@ Use this README as an overview for the various projects offered. Where appropria
 - [Getting Started with Python](#getting-started-with-python)
 - [Q-Learning for Pathfinding](#q-learning-for-pathfinding)
 - [Introduction to Neural Networks](#introduction-to-neural-networks)
-- Text Classification
+- [Text Classification](#text-classification)
 - Handwriting Recognition (MNIST)
 - [OpenAI Gym Video Game Agents](#openai-gym-video-game-agents)
 - Style Transfer
@@ -19,6 +19,7 @@ Use this README as an overview for the various projects offered. Where appropria
 - [Appendix A - Escape the Room](#appendix-a---escape-the-room)
 - [Appendix B - Neural Network Email](#appendix-b---neural-network-email)
 - Appendix C: Brainstorm Materials
+- [Appendix D - GitHub Set Up Instructions](#appendix-d---github-set-up-instructions)
 
 ### Getting Started with Python
 The students had not learned Python in a prior class, however some were familiar with it on their own. Most students had taken two years (2x/week) of classes taught in Java. I wanted them to get comfortable learning on their own, so in class I did the following:
@@ -48,6 +49,14 @@ For building their XOR networks, I gave them code for a working example as well 
 
 Additionally, this tutorial used numpy, so the students installed pip and started getting comfortable installing packages on their own computers. [Here](https://github.com/MsPries/AI-curriculum/blob/master/appedix/pip.md) are the instructions I gave them.
 
+### Text Classification
+Text classification was the theme of the students' first major group project. They were challenged to try to answer a central question using some set of text. The project rubric is available [here](https://docs.google.com/document/d/1YauZ3bCHO7yNwlQh0lxH_-nULNi3PowZ9s_KPQM0Pdc/edit?usp=sharing).
+
+We started by looking at the bag of words technique together. The students worked through [this tutorial](https://machinelearnings.co/text-classification-using-neural-networks-f5cd7b8765c6) over two homeworks and two class periods. Then, they moved into [this Kaggle competition](https://www.kaggle.com/c/word2vec-nlp-tutorial#part-1-for-beginners-bag-of-words) looking at IMDB reviews and the associated ratings. This Kaggle competition was great as a resource because it built directly off of the tiny bag of words tutorial and laid out some challenges associated with using this technique for this application. There are numerous tutorials directly connected to the IMDB Kaggle competition and ones that plugged directly into iPython notebooks were most helpful.
+
+As it was the first group project, we spent some time looking at collaboration tools. I gave them a guide for using GitHub and an [overview](https://docs.google.com/document/d/1NnFg3SMnAP2Cw_WqTTWZfBs053kCc_4-lNQMYbGAy80/edit?usp=sharing) of some existing systems. At the start of each class, we had a stand up meeting where each group gave a concise update on their progress and had the opportunity to formally ask for help. The students stayed somewhat involved with other students' projects, so the formal ask for help option was less needed. I gave them [instructions](#appendix-d---github-set-up-instructions) for setting up GitHub but spent the next class going over how it works; next time I will just explain how it works for the sake of time.
+
+
 ### OpenAI Gym Video Game Agents
 For the student's semester exam project, they were challenged to explore AI programs to complete challenges or compete in the [OpenAI Gym](https://gym.openai.com/). You can find the student prompt [here](https://github.com/MsPries/AI-curriculum/blob/master/openai-gym/prompt.md).
 
@@ -62,3 +71,7 @@ You can find the live version of the activity [here](https://mspries.github.io/e
 I used an example email with a proposed design for a college acceptance text classifier using neural networks to check for understanding on neural network fundamentals. We also discussed the ethics behind building such a program. It worked well as a classroom discussion, however if I were concerned about getting a more granular understanding of individual student mastery, I would have assigned annotating this email as a homework assignment.
 
 You can find the example email [here](https://github.com/MsPries/AI-curriculum/blob/master/appendix/text_classifier_email.md).
+
+
+### Appendix D - GitHub Set Up Instructions
+I gave the students [these instructions](https://docs.google.com/document/d/1gzKgVDmiwaBqljEHdeqNw-NFH-A_cEJwEU-7L-fDJ_A/edit?usp=sharing) to help them get set up on GitHub
