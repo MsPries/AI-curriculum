@@ -16,7 +16,7 @@ Use this README as an overview for the various projects offered. Where appropria
 - OpenAI Gym Video Game Agents
 - Style Transfer
 - Final Projects
-- Appendix A: Check for Understanding: Escape the Room
+- [Appendix A - Escape the Room](#appendix-a---escape-the-room)
 - Appendix B: Check for Understanding: Neural Network Fundamentals
 - Appendix C: Brainstorm Materials
 
@@ -48,5 +48,7 @@ For building their XOR networks, I gave them code for a working example as well 
 
 Additionally, this tutorial used numpy, so the students installed pip and started getting comfortable installing packages on their own computers. [Here](https://github.com/MsPries/AI-curriculum/blob/master/appedix/pip.md) are the instructions I gave them.
 
+### Appendix A - Escape the Room
+This "escape the room" style activity checked for understanding for concepts of the first few explorations. The overhead to create it was more than standard but it is easily modified to be reusable and the excitement around collaborative problem-solving was incredible.
 
-
+You can find the live version of the activity [here](https://mspries.github.io/escape/escape.html) and a complete write up [here](https://github.com/MsPries/AI-curriculum/blob/master/appendix/escape_the_room.md)
