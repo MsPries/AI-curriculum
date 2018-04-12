@@ -47,7 +47,7 @@ I used [MarI/O](https://www.youtube.com/watch?v=qv6UVOQ0F44) as a hook for appro
 
 For building their XOR networks, I gave them code for a working example as well as structure for writing their own - you can find this code [here](https://github.com/emilypries/xor-neural-network). This gave them the confidence to dive into the blank part of code and gave them an easy resource for debugging on their own. This seemed to be the right amount of support to allow them to focus on the concepts while developing their Python skills.
 
-Additionally, this tutorial used numpy, so the students installed pip and started getting comfortable installing packages on their own computers. [Here](https://github.com/MsPries/AI-curriculum/blob/master/appedix/pip.md) are the instructions I gave them.
+Additionally, this tutorial used numpy, so the students installed pip and started getting comfortable installing packages on their own computers. [Here](https://github.com/MsPries/AI-curriculum/blob/master/appendix/pip.md) are the instructions I gave them.
 
 ### Text Classification
 Text classification was the theme of the students' first major group project. They were challenged to try to answer a central question using some set of text. The project rubric is available [here](https://docs.google.com/document/d/1YauZ3bCHO7yNwlQh0lxH_-nULNi3PowZ9s_KPQM0Pdc/edit?usp=sharing).
