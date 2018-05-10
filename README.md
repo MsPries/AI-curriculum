@@ -12,7 +12,7 @@ Use this README as an overview for the various projects offered. Where appropria
 - [Q-Learning for Pathfinding](#q-learning-for-pathfinding)
 - [Introduction to Neural Networks](#introduction-to-neural-networks)
 - [Text Classification](#text-classification)
-- Handwriting Recognition (MNIST)
+- [Handwriting Recognition (MNIST)](#handwriting-recognition-(mnist)]
 - [OpenAI Gym Video Game Agents](#openai-gym-video-game-agents)
 - [Style Transfer](#style-transfer)
 - [Final Projects](#final-projects)
@@ -56,6 +56,14 @@ We started by looking at the bag of words technique together. The students worke
 
 As it was the first group project, we spent some time looking at collaboration tools. I gave them a guide for using GitHub and an [overview](https://docs.google.com/document/d/1NnFg3SMnAP2Cw_WqTTWZfBs053kCc_4-lNQMYbGAy80/edit?usp=sharing) of some existing systems. At the start of each class, we had a stand up meeting where each group gave a concise update on their progress and had the opportunity to formally ask for help. The students stayed somewhat involved with other students' projects, so the formal ask for help option was less needed. I gave them [instructions](#appendix-d---github-set-up-instructions) for setting up GitHub but spent the next class going over how it works; next time I will just explain how it works for the sake of time.
 
+
+### Handwriting Recognition (MNIST)
+The recognizing digits in the MNIST handwritten dataset is a common benchmark project for beginners in machine learning. There are lots of existing materials describing different approaches.
+
+In this project, I wanted students to get comfortable learning new material on their own and practice working with image-based data. More concretely, I wanted students to be able to both understand and apply [CNNs](https://en.wikipedia.org/wiki/Convolutional_neural_network).
+
+I direced them to the Digit Recognizer [Kaggle competition](https://www.kaggle.com/c/digit-recognizer/) and had students do a survey of existing techniques, discuss the techniques in class, and then dive into one of their choosing. Next time, I would point them to [this Kaggle kernel](
+https://www.kaggle.com/yassineghouzam/introduction-to-cnn-keras-0-997-top-6), which provides a clear introduction to both the concepts and using keras for the implementation. The students also found [this video](https://www.youtube.com/watch?v=cAICT4Al5Ow) helpful.
 
 ### OpenAI Gym Video Game Agents
 For the student's semester exam project, they were challenged to explore AI programs to complete challenges or compete in the [OpenAI Gym](https://gym.openai.com/). You can find the student prompt [here](https://github.com/MsPries/AI-curriculum/blob/master/openai-gym/prompt.md).
