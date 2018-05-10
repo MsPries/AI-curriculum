@@ -12,7 +12,7 @@ Use this README as an overview for the various projects offered. Where appropria
 - [Q-Learning for Pathfinding](#q-learning-for-pathfinding)
 - [Introduction to Neural Networks](#introduction-to-neural-networks)
 - [Text Classification](#text-classification)
-- [Handwriting Recognition (MNIST)](#handwriting-recognition-(mnist)]
+- [Handwriting Recognition - MNIST](#handwriting-recognition---mnist)
 - [OpenAI Gym Video Game Agents](#openai-gym-video-game-agents)
 - [Style Transfer](#style-transfer)
 - [Final Projects](#final-projects)
