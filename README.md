@@ -62,8 +62,10 @@ The recognizing digits in the MNIST handwritten dataset is a common benchmark pr
 
 In this project, I wanted students to get comfortable learning new material on their own and practice working with image-based data. More concretely, I wanted students to be able to both understand and apply [CNNs](https://en.wikipedia.org/wiki/Convolutional_neural_network).
 
-I direced them to the Digit Recognizer [Kaggle competition](https://www.kaggle.com/c/digit-recognizer/) and had students do a survey of existing techniques, discuss the techniques in class, and then dive into one of their choosing. Next time, I would point them to [this Kaggle kernel](
+I directed them to the Digit Recognizer [Kaggle competition](https://www.kaggle.com/c/digit-recognizer/) and had students do a survey of existing techniques, discuss the techniques in class, and then dive into one of their choosing. Next time, I would point them to [this Kaggle kernel](
 https://www.kaggle.com/yassineghouzam/introduction-to-cnn-keras-0-997-top-6), which provides a clear introduction to both the concepts and using keras for the implementation. The students also found [this video](https://www.youtube.com/watch?v=cAICT4Al5Ow) helpful.
+
+This project occupied the odd space between Thanksgiving and winter break -- I may consider moving the style transfer project into this gap (see style transfer notes below).
 
 ### OpenAI Gym Video Game Agents
 For the student's semester exam project, they were challenged to explore AI programs to complete challenges or compete in the [OpenAI Gym](https://gym.openai.com/). You can find the student prompt [here](https://github.com/MsPries/AI-curriculum/blob/master/openai-gym/prompt.md).
