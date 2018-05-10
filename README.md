@@ -57,7 +57,7 @@ We started by looking at the bag of words technique together. The students worke
 As it was the first group project, we spent some time looking at collaboration tools. I gave them a guide for using GitHub and an [overview](https://docs.google.com/document/d/1NnFg3SMnAP2Cw_WqTTWZfBs053kCc_4-lNQMYbGAy80/edit?usp=sharing) of some existing systems. At the start of each class, we had a stand up meeting where each group gave a concise update on their progress and had the opportunity to formally ask for help. The students stayed somewhat involved with other students' projects, so the formal ask for help option was less needed. I gave them [instructions](#appendix-d---github-set-up-instructions) for setting up GitHub but spent the next class going over how it works; next time I will just explain how it works for the sake of time.
 
 
-### Handwriting Recognition (MNIST)
+### Handwriting Recognition - MNIST
 The recognizing digits in the MNIST handwritten dataset is a common benchmark project for beginners in machine learning. There are lots of existing materials describing different approaches.
 
 In this project, I wanted students to get comfortable learning new material on their own and practice working with image-based data. More concretely, I wanted students to be able to both understand and apply [CNNs](https://en.wikipedia.org/wiki/Convolutional_neural_network).
