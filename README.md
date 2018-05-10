@@ -14,7 +14,7 @@ Use this README as an overview for the various projects offered. Where appropria
 - [Text Classification](#text-classification)
 - Handwriting Recognition (MNIST)
 - [OpenAI Gym Video Game Agents](#openai-gym-video-game-agents)
-- Style Transfer
+- [Style Transfer](#style-transfer)
 - [Final Projects](#final-projects)
 - [Appendix A - Escape the Room](#appendix-a---escape-the-room)
 - [Appendix B - Neural Network Email](#appendix-b---neural-network-email)
@@ -62,8 +62,24 @@ For the student's semester exam project, they were challenged to explore AI prog
 
 To introduce the project, we explore a solver for the ["cartpole" environment](https://gym.openai.com/envs/CartPole-v0/). This introduced the idea of interacting with a simulated environment and gave them scaffolding code to build off of. I gave them a [random player](https://github.com/MsPries/AI-curriculum/blob/master/openai-gym/cartpole_random.py) that tries random parameters and keeps track of the most successful set as well a [random player that scales linearly](https://github.com/MsPries/AI-curriculum/blob/master/openai-gym/cartpole_linear.py). In class, we looked at graphs and had students visualize the success score vs parameter choices in 2, 3, and 4 dimensions. This was a helpful way to see the role of gradient descent interacting with a cost function. From there, they delved into their projects for the next ~3 weeks.
 
+### Style Transfer
+In our exploration of style transfer, students practiced their project design skills by choosing projects that were personally interesting while remaining feasible. These skills were put to the test in final projects.
+
+Students started by reading online on their own to develop their own sense of the current conversation. They brought in examples that were interesting to them, including the use of an autoencoder to [change the season in an image](https://motherboard.vice.com/en_us/article/xwvz9a/watch-an-algorithm-turn-winter-into-summer-in-any-video-image-to-image-translation).
+
+Next, I had them read [this blog post](https://blog.paperspace.com/art-with-neural-networks/), which does a great job giving an overview of the separation between content and style. They also read two papers, ["A Neural Algorithm of Artistic Style"](https://arxiv.org/pdf/1508.06576.pdf) (Gatys, et al) and ["Instance Normalization:
+The Missing Ingredient for Fast Stylization"](https://arxiv.org/pdf/1607.08022.pdf) (Ulyanov, et al). The first is more important for understanding the strategy, and the second is skimmable for students who do not have the math background, as the Ulyanov paper gives a strategy for speeding up the algorithm described in Gatys.
+
+Once they had an understanding of the approach, they used Logan Engstrom's [Fast Style Transfer repo](https://github.com/lengstrom/fast-style-transfer) to apply a style to their own image. This practiced the skill of reading through documentation - several students missed the section on where to download the style models (checkpoint files).
+
+At this point, we also practiced using ssh in class in order to connect remotely to the class machine that has a good GPU. Making this available earlier in the course would have been helpful, however the timing was determined by a removal of a network block. Training a new style without GPU access pushes the limit of being prohibitively computationally intensive.
+
+Students worked in groups for their project on style transfer. They were given [this open ended prompt](https://docs.google.com/document/d/1GdK_uDNGoveJ1SSXoPeSocv2qX2_h3UcSGzVcBIty58/edit?usp=sharing) with example ideas to start thinking about the varied applications of style transfer, particularly as it is used at the intersection with another or multiple industries.
+
+Facilitation notes: This project involved more reading and using existing code than writing new code that I (and some of the students) would like. It also takes a long time to process images. In the future, I would consider moving this project earlier in the year, because the students really appreciated the visual aspect of it. The material itself may be too challenging to introduce earlier, but using existing trained style models would allow students to practice skills around environment set up and documentation reading that may give a pay off on later projects.
+
 ### Final Projects
-For their final projects, students were (as of 4/3/18, are!) welcome to work on whatever they want! The prompt and grading rubric for this project are available [here](https://docs.google.com/document/d/1Or5s8aK-lo2-guo5rOn_TZbUe6CFsQ0cURYe6-kG1dc/edit?usp=sharing).
+For their final projects, students were welcome to work on whatever they want! The prompt and grading rubric for this project are available [here](https://docs.google.com/document/d/1Or5s8aK-lo2-guo5rOn_TZbUe6CFsQ0cURYe6-kG1dc/edit?usp=sharing).
 
 They have known this project is open throughout the course, but to jumpstart some creative thinking I ran [this brainstorm exercise](https://github.com/MsPries/AI-curriculum/blob/master/appendix/brainstorm.md) in class to get new dialogue going. Students have since had one homework and one class period to talk to their peers and me and submit a short proposal. I use Google Forms for collecting info like this. I emailed them feedback about their proposal, including talking through narrowing or broadening the scope of a project, suggestions for where to find data sets, celebrating unique approaches, or pushing students to think through a potential challenge.
 
